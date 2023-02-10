@@ -200,7 +200,7 @@ button p {
 .reply-section {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 20px;
   background-color: var(--white);
   padding: 25px;
   border-radius: 15px;
@@ -210,6 +210,7 @@ button p {
 
 .reply-section img {
   width: 5%;
+  translate: 5px 0;
 }
 
 textarea {
@@ -259,6 +260,7 @@ textarea:focus {
   background-color: var(--moderate-blue);
   opacity: 0.2;
   height: 100%;
+  translate: 7px 0;
   margin: auto;
 }
 
